@@ -40,7 +40,7 @@ BLE设备蓝牙连接模块化代码示例
            startScan();
        }
    }
-   
+
 　3、接收请求权限的返回：
 @Override
   public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -53,9 +53,9 @@ BLE设备蓝牙连接模块化代码示例
       }
       super.onRequestPermissionsResult(requestCode, permissions, grantResults);
   }
- 
 
- 
+
+
 
 　　检查蓝牙是否开启：
 public boolean checkBlueEnable(){
